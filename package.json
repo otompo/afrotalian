@@ -2,11 +2,11 @@
   "name": "afrotalian",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "dev": "next dev",
+    "lint": "next lint"
   },
   "dependencies": {
     "@tinymce/tinymce-react": "^3.13.0",

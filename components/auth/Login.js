@@ -10,8 +10,8 @@ const Login = () => {
   const router = useRouter();
   const { state, dispatch } = useContext(Context);
 
-  const [email, setEmail] = useState('sasco@gmail.com');
-  const [password, setPassword] = useState('otompo123@');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
