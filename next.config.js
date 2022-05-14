@@ -13,7 +13,7 @@ module.exports = {
     AWS_SECRET_ACCESS_KEY: '36FeuJ7Xpw7UDg6OiI5KGGnyv79tHg4i0hTU6jYz',
     AWS_REGION: 'us-east-1',
     AWS_API_VERSION: '2012-10-17',
-    NEXTAUTH_URL: 'https://afrotalian.com/api/auth',
+    NEXTAUTH_URL: 'https://afrotalian.com',
     TAWK_PROPERTY_ID: '625886a9b0d10b6f3e6da486',
     TAWK_ID: '1g0kss2bo',
   },
