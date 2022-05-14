@@ -13,7 +13,7 @@ const Login = () => {
   const [email, setEmail] = useState('sasco@gmail.com');
   const [password, setPassword] = useState('otompo123@');
   const [loading, setLoading] = useState(false);
-  let redirectUrl = 'https://afrotalian.com/user';
+  let redirectUrl = '/user';
   const handleSubmit = async (e) => {
     e.preventDefault();
 
