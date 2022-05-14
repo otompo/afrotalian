@@ -3,7 +3,6 @@ module.exports = {
   env: {
     DB_URL:
       'mongodb+srv://sasco:9bAqbQwMECDOKJ5C@cluster0.tsneg.mongodb.net/afrotaliandb?retryWrites=true&w=majority',
-
     DB_LOCAL: 'mongodb://localhost:27017/afrotaliandb',
     CLIENT_URL: 'http://localhost:3000',
     JWT_SECRET: 'sfskftsfdssdsp3405059o53H530smdslf',
