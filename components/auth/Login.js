@@ -10,10 +10,10 @@ const Login = () => {
   const router = useRouter();
   const { state, dispatch } = useContext(Context);
 
-  const [email, setEmail] = useState('sasco@gmail.com');
-  const [password, setPassword] = useState('otompo123@');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
-  let redirectUrl = '/user';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -34,8 +34,7 @@ const Login = () => {
       // save in local storage
       window.localStorage.setItem('user', JSON.stringify(session.user));
       toast.success('SignIn Success');
-      router.push(redirectUrl);
-
+      router.push(`/user`);
       setLoading(false);
     } else {
       toast.error(result.error);
